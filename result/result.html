@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Result</title>
+    
+<style>
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.result{
+    width: 40%;
+     height: auto;
+    background-color: ghostwhite;
+    border: 1px solid rgb(158, 157, 157);
+    margin: auto;
+    margin-top: 10vh;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+.resopt p,span{
+    color: rgb(100, 98, 98);
+    padding: 10px;
+}
+.resopt h1{
+    color: rgb(50, 136, 216);
+}
+.resopt input{
+    background: rgb(50, 136, 216);
+    border: none;
+    outline: none;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px 25px 10px 25px;
+    cursor: pointer;
+}
+
+</style>
+
+
+
+</head>
+<body onload="showResult()">
+    <div class="result">
+        
+    <div class="resopt">
+        <h1>Quiz Result</h1>
+        <span id="namespn"></span><P>your result is:</P>
+        <p>Total Time Taken:<span id="time"></span>second</p>
+        <p>Total Question:<span id="ques"></span></p>
+        <p>Attempt:<span id="quesAttempt"></span></p>
+        <p>Correct:<span id="quescorrect"></span></p>
+        <p>Wrong:<span id="queswrong"></span></p>
+        <p>Percentage:<span id="percentage"></span></p>
+        <a href="../Quizapphtml/quiz.html">
+        <input type="button" name="start" id="startbtn" value="Start again"></a>
+        <a href="../index.html">
+        <input type="button" name="playagain" id="playagain"value="Go To Home"></a>
+        
+    </div>
+
+    </div>
+
+    <script src="../Quizapphtml/quiz.js">
+       
+        
+    </script>
+         
+
+
+
+</body>
+</html>

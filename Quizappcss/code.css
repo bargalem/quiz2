@@ -1,0 +1,126 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.quesMainDiv{
+    width: 50%;
+    height: auto;
+    background-color: ghostwhite;
+    border: 1px solid rgb(158, 157, 157);
+    margin: auto;
+    margin-top: 10vh;
+    padding: 5px;
+    border-radius: 10px;
+    
+    text-align: center;
+  
+}
+.headDiv{
+    padding: 10px;
+
+}
+.headDiv #subpara{
+    text-align: center;
+}
+.Timescorediv{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px ;
+}
+
+.Timescorediv #timeDiv{
+    height: 30px;
+    width: 40px;
+    padding:5px;
+    border-radius: 50%;
+    border: 1px solid rgb(50, 136, 216); 
+    /* background-color: black;*/
+    
+} 
+#TimeUp{
+    margin-top: 5px;
+    color: red;
+}
+fieldset{
+    padding: 10px;
+    height: auto;
+    text-align: center;
+    border:1px solid rgb(148, 147, 147); 
+    border-radius: 5px;
+    
+}
+fieldset p{
+    text-align: left;
+    color:rgb(50, 136, 216);  ;
+}
+#fieldsetDiv{
+    height: auto;
+    width: 50px;
+    border-radius: 50%;
+    border: 1px solid rgb(50, 136, 216); 
+    padding: 5px;
+
+}
+
+.ansbtn ul{
+display: grid;
+grid-template-columns: 1fr 1fr;
+gap:20px;
+   margin: 20px 0 20px 0;
+   list-style-type: none;
+   padding: 5px;
+
+
+}
+.ansbtn ul li{
+    
+    color: rgb(50, 136, 216);
+    border:1px solid rgb(50, 136, 216);  
+    border-radius: 15px;
+    background-color: rgb(202, 219, 235); 
+    padding: 5px;
+    cursor: pointer;
+    }
+
+
+/* .ansbtn ul li.selectAns{
+    border: 1px solid rgb(50, 136, 216); 
+    background-color: rgb(202, 219, 235); 
+    border-radius: 15px;
+    padding: 5px;
+    color: black;
+  cursor: pointer;
+  color: rgb(50, 136, 216);
+  font-size: medium; 
+  width:auto;
+  list-style: none;
+} */
+
+
+#nextQuesBtn,#Resultbtn{
+    margin: auto;
+    border-radius: 15px;
+    outline: none;
+    border: 1px solid rgb(50, 136, 216); 
+    cursor: pointer;
+    padding: 10px;
+    width:30%;
+    background-color: rgb(202, 219, 235); 
+    color:  rgb(50, 136, 216);
+     text-align: center;
+     
+}
+.btn{
+    border-radius: 15px;
+    outline: none;
+    border: 1px solid rgb(50, 136, 216); 
+    cursor: pointer;
+    padding: 10px;
+    color:  rgb(50, 136, 216);
+}
+.btn:hover{
+    background-color: rgb(202, 219, 235); 
+}
+
